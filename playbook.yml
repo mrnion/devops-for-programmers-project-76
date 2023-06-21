@@ -3,7 +3,7 @@
   tags:
     - setup
   tasks:
-    - name: Add Docker GPG apt Key
+    - name: add Docker GPG apt key
       ansible.builtin.apt_key:
         url: https://download.docker.com/linux/ubuntu/gpg
         state: present
