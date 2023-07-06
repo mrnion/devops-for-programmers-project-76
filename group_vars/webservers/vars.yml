@@ -4,6 +4,8 @@ redmine_db_username: "{{ vault_redmine_db_username }}"
 redmine_db_password: "{{ vault_redmine_db_password }}"
 redmine_db_port: "{{ vault_redmine_db_port }}"
 
+redmine_db_version: "{{ vault_redmine_db_version }}"
+
 datadog_api_key: "{{ vault_datadog_api_key }}"
 datadog_site: "datadoghq.eu"
 
