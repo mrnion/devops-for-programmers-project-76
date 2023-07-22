@@ -41,8 +41,8 @@
       community.docker.docker_container:
         name: redmine-app
         image: redmine
-        state: {{ redmine_version }}
+        state: "{{ redmine_version }}"
         env_file: /.env
         restart_policy: always
         ports:
-          - {{ redmine_port }}:3000
+          - "{{ redmine_port }}":3000
