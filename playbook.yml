@@ -45,4 +45,4 @@
         env_file: /.env
         restart_policy: always
         ports:
-          - "{{ redmine_port }}":3000
+          - "{{ redmine_port }}:3000"
