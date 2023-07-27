@@ -6,14 +6,17 @@ Second DevOps project - deploy Redmine App
 Site:
 https://k361.space
 
-Use OS in virtual mashine - Ubuntu version 20
+- Use OS in virtual mashine - Ubuntu version 20
+- Create VM in Yandex.Cloud
+- Create LB in Yandex.Cloud
+- Create Datadog account 
 
 Prepare for the deploy
 1. Install Ansible (https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-2. Setup cloud VM addresses in the inventory 
+2. Setup new cloud VM addresses in the file inventory.ini 
 
-Install and Deploy:
+Install,Setup and Deploy:
 
 Use available command from Makefile
 
-(make install deploy)
+(make install setup deploy)
